@@ -1,5 +1,17 @@
- body {
+body {
   margin: 0;
   padding: 0;
   border: 0;
 }
+
+body {
+  text-align: center;
+}
+
+header {
+  height: 100px;
+  background: #dbdbdb;
+  width: 100%;
+  z-index:10;
+}
+
