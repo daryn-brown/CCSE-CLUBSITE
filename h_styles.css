@@ -2,9 +2,6 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
-}
-
-body {
   text-align: center;
 }
 
@@ -13,5 +10,21 @@ header {
   background: #dbdbdb;
   width: 100%;
   z-index:10;
+  position: fixed;
 }
 
+#banner {
+  width: 100%;
+  height:500px;
+  position: fixed;
+  top: 100px;
+  background: #707070;
+}
+
+#content {
+  width: 100%;
+  position: relative;
+  top: 400px;
+  background: #cbcbcb;
+  height: 1500px;
+}
